@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<script>
+  import { init as pixiInit } from './_/pixi/app';
+
+  pixiInit(document.body);
+</script>
+
+<Layout title="Welcome to Astro." />
